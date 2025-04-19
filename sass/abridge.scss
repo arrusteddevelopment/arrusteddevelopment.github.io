@@ -1,27 +1,26 @@
-@use '../themes/abridge/sass/abridge' with (
-  /// LINES HERE END WITH COMMA AFTER THE VALUE!
+@use '../themes/abridge/sass/abridge' with ( /// LINES HERE END WITH COMMA AFTER THE VALUE!
   /// The things your less likely to need to override have been commented out.
 
   /// Enable a centered viewport for <header>, <main>, <footer> inside <body>
   /// Fluid layout until a defined size, then becomes centered viewport.
   //$enable-maxwidth: true,
-  $mw: 70%,// max-width
+  $mw: 70%, // max-width
   //$mb: 1200px,// value at which to switch from fluid layout to max-width
 
-  $abridgeMode: "switcher",//valid values: switcher, auto, dark, light
-  $syntax-mode: "auto",// Force syntax mode: auto, dark, light
-  $switcherDefault: "dark",// default nojs switcher mode: dark, light (make sure to also set js_switcher_default in config.toml)
+  $abridgeMode: "switcher", //valid values: switcher, auto, dark, light
+  $syntax-mode: "auto", // Force syntax mode: auto, dark, light
+  $switcherDefault: "dark", // default nojs switcher mode: dark, light (make sure to also set js_switcher_default in config.toml)
 
-  $color: "orange",// color template to use/override: orange, blue, blueshade
+  $color: "orange", // color template to use/override: orange, blue, blueshade
 
-  $color-syntax: "abridge",// syntax color template to use/override: abridge,
-  $syntax: true,//syntax highlighting for Code Blocks.
+  $color-syntax: "abridge", // syntax color template to use/override: abridge,
+  $syntax: true, //syntax highlighting for Code Blocks.
 
-  $enable-icons: true,// false disables ALL icons
-  $ic: true,// true for colorized icons, otherwise #888 is used.
+  $enable-icons: true, // false disables ALL icons
+  $ic: true, // true for colorized icons, otherwise #888 is used.
 
   $icon-rss: true,
-  $icon-mail: false,// e-mail
+  $icon-mail: false, // e-mail
   $icon-mastodon: false,
   $icon-element: false,
   $icon-matrix: false,
@@ -82,10 +81,10 @@
   //$c2d: #222,// Background Color Secondary
   //$c3d: #333,// Table Rows, Block quote edge, Borders
   //$c4d: #777,// Disabled Buttons, Borders, mark background
-  //$a1d: #f90,// link color
-  //$a2d: #fb0,// link hover/focus color
-  //$a3d: #f90,// link h1-h2 hover/focus color
-  //$a4d: #f90,// link visited color
+  $a1d: #ea5e04, // link color
+  // $a2d: #fb0,// link hover/focus color
+  // $a3d: #f90,// link h1-h2 hover/focus color
+  // $a4d: #f90,// link visited color
   //$cgd: #593,// ins green, success
   //$crd: #e33,// del red, errors
 
