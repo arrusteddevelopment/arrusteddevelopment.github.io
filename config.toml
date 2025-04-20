@@ -4,8 +4,8 @@ base_url = "https://arrusteddevelopment.github.io"
 # Also set index format = "elasticlunr_javascript", and in [extra] uglyurls = true, integrity = false
 # If you use the npm/node script then all you have to do is set search_library = "offline", and everything else is automatic.
 
-title = "Abridge"
-description = "Abridge is a fast, lightweight, and modern Zola theme (class-light, semantic HTML). Perfect Lighthouse, YellowLabTools, and Observatory scores."#for SEO aim for 140-180 Characters
+title = "Arrusted Development"
+description = "Go beyond tutorials. Learn networking, databases, OS internals, compilers, and more — with practical Rust and systems projects designed for curious engineers."#for SEO aim for 140-180 Characters
 theme = "abridge"
 
 default_language = "en"
@@ -44,49 +44,6 @@ external_links_no_follow = false   # rel="nofollow"
 external_links_no_referrer = false # rel="noreferrer"
 smart_punctuation = false          # `...` to `…`, `"quote"` to `“curly”` etc
 
-# Any Extra language you do not use, delete or comment out the extra language sections:
-[languages.fr]
-title = "Abridge"
-description = "Abridge est un thème Zola rapide et léger utilisant le html sémantique, le CSS abridge.css class-light et aucun JS obligatoire."
-generate_feeds = true
-build_search_index = true
-search.include_title = true # include title of page/section in index
-search.include_description = true # include description of page/section in index
-search.include_content = true # include rendered content of page/section in index
-# search.truncate_content_length = 100 # Truncate at nth character. May be useful if index is getting too large.
-taxonomies = [
-#    {name = "categories", feed = true},
-    {name = "tags", feed = true},
-]
-
-[languages.es]
-title = "Abridge"
-description = "Abridge es un tema de Zola rápido y liviano que utiliza HTML semántico, CSS ligero de clase abridge.css y JS no obligatorio."
-generate_feeds = true
-build_search_index = true
-search.include_title = true # include title of page/section in index
-search.include_description = true # include description of page/section in index
-search.include_content = true # include rendered content of page/section in index
-# search.truncate_content_length = 100 # Truncate at nth character. May be useful if index is getting too large.
-taxonomies = [
-#    {name = "categories", feed = true},
-    {name = "tags", feed = true},
-]
-
-[languages.pt]
-title = "Abridge"
-description = "Abridge é um tema rápido e leve que usa HTML semântico, CSS de clase leve abridge.css y JS não obrigatório."
-generate_feeds = true
-build_search_index = true
-search.include_title = true # include title of page/section in index
-search.include_description = true # include description of page/section in index
-search.include_content = true # include rendered content of page/section in index
-# search.truncate_content_length = 100 # Truncate at nth character. May be useful if index is getting too large.
-taxonomies = [
-#    {name = "categories", feed = true},
-    {name = "tags", feed = true},
-]
-
 [extra]
 ###############################################################################
 ### Layout & Format
@@ -97,13 +54,13 @@ taxonomies = [
 
 menu = [
 #    {url = "blog", name = "Blog", slash = true, blank = false, size="s110"},
-#    {url = "about", name = "About", slash = true, blank = false, size="s110"},
     {url = "archive", name = "Posts", slash = true, blank = false, size="s110"},
 #    {url = "categories", name = "Categories", slash = true, blank = false, size="s110"},
     {url = "tags", name = "Tags", slash = true, blank = false, size="s110"},
+    {url = "about", name = "About", slash = true, blank = false, size="s110"},
 ]
 menu_footer = [
-    {url = "about", name = "About", slash = true, blank = false, size="s90"},
+#    {url = "about", name = "About", slash = true, blank = false, size="s90"},
     {url = "contact", name = "Contact", slash = true, blank = false, size="s90"},
     {url = "privacy", name = "Privacy", slash = true, blank = false, size="s90"},
     {url = "sitemap.xml", name = "Sitemap", slash = false, blank = true, size="s90"},
@@ -151,9 +108,9 @@ foothr = false # show or hide horizontal rule above footer
 ###############################################################################
 
 title_separator = "|"  # Separator between title and title_addition, set as |, -, _, etc
-title_addition = "Fast, Lightweight, and Modern Zola Theme" # a default value for title addition (for SEO aim for 50-70 characters including the title and separator 'Abridge | title_addition')
-author = "Jake G" # Put Your Name here
-keywords = "Abridge, Abridge.css, Zola, Theme, Zola Theme, getzola, Semantic Html, Fast, lightweight" # used for the primary site index
+title_addition = "Systems Programming Made Fun" # a default value for title addition (for SEO aim for 50-70 characters including the title and separator 'Abridge | title_addition')
+author = "Tom Shetler" # Put Your Name here
+keywords = "Rust, Systems, C, Go, Programming, Tutorial" # used for the primary site index
 banner = "banner.png" # Used as default image for OpenGraph/Twitter if page specific image is undefined.
 twitter_meta = "your-user-name" # for SEO: twitter:site and twitter:creator
 google = "Your Google Site verification code."
@@ -274,7 +231,7 @@ favicon_ms_color = "#333333"
 favicon_mask = "safari-pinned-tab.svg" # safari-pinned-tab.svg
 favicon_mask_color = "#ff9900"
 favicon_svg = "ferris.svg" # favicon.svg
-favicon180 = "apple-touch-icon.png" # apple-touch-icon.png
+favicon180 = "ferris.svg" # apple-touch-icon.png
 favicon32 = "favicon-32x32.png" # favicon-32x32.png
 favicon16 = "favicon-16x16.png" # favicon-16x16.png
 
