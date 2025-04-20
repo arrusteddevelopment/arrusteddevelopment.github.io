@@ -4,10 +4,16 @@ path = "about"
 template = "pages.html"
 title = "About"
 +++
-This site provides a demo for the [abridge theme](https://github.com/Jieiku/abridge) for [Zola](https://www.getzola.org/) the static site generator.
+Hey there! 👋 I’m Tom, the creator of Arrusted Development — a hub for engineers who aren’t just satisfied using technology, but who want to really understand it.
 
-Abridge was created by [Jake G (jieiku)](https://github.com/Jieiku) to be fast and lightweight, using semantic html, a class-light [abridge.css](https://github.com/Jieiku/abridge.css), and No Mandatory JS.
+I'm a backend engineer with years of experience building web applications at startups, but deep down, I’ve always craved something more: a real understanding of the systems that power everything we build. After working through tutorial hell and one too many TODO app examples, I decided to create the kind of resource I wish I had — one focused on real-world systems, systems programming, and first-principles thinking.
 
-Nearly half of the existing Zola MIT themes were inspiration for features and design of this theme.
+At Arrusted Development, the goal is simple: to make low-level, complex concepts like networking, databases, operating systems, and compilers accessible and fun. While Rust is our main playground 🦀, we also dive into C, Go, and Node.js/Deno, with a focus on building actual tools — not just syntax demos.
 
-Abridge is licensed under the [MIT license](https://opensource.org/licenses/MIT).
+If you've ever found yourself wondering:
+"How does this actually work under the hood?"
+— you're in the right place.
+
+I believe systems programming shouldn’t feel intimidating. Through practical projects, deep dives, and a touch of lightheartedness, I'm here to help you move beyond surface-level knowledge and into the guts of real-world software — one byte-sized lesson at a time. 🧠✨
+
+Welcome aboard!
