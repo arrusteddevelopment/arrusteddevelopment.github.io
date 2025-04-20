@@ -11,3 +11,5 @@ Abridge was created by [Jake G (jieiku)](https://github.com/Jieiku) to be fast a
 Nearly half of the existing Zola MIT themes were inspiration for features and design of this theme.
 
 Abridge is licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+Ferris emoji by Dzuk, licensed under CC BY-NC-SA 4.0
