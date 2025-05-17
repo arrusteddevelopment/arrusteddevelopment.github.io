@@ -4,21 +4,10 @@ path = "about"
 template = "pages.html"
 title = "About"
 +++
-Hey there! 👋 I’m Tom, the creator of Arrusted Development — a hub for engineers who aren’t just satisfied using technology, but who want to really understand it. I'm glad you stopped by!
+Hi. I'm Tom. I wanted to learn Rust because the crab seemed cute and now I write in it everyday. I made this site for people who want to learn Rust by actually "building" things and learning the technical details along the way: no fluff, no overly dry documentation, and, most imporantly of all, NO TO-DO APPS.
 
-I'm a backend engineer with years of experience building web applications at startups and I've always had a desire to really understand at a deeper level the systems that power everything we build. After working through tutorial hell and one too many TODO app examples, I decided I wanted to create the kind of resource I wish I had from the beginning — one focused on real-world systems, systems programming, and first-principles thinking.
+My ideal audience is those who know the basics of Rust and want to start building in it. For those who haven't already, I'd recommend reading the first few chapters of [the book](https://doc.rust-lang.org/book/) and then coming back here to start seeing how you can build with it. My first post also covers some additional resources I've found to be super helpful in gaining a deeper understanding, so be sure to check that out to see more. 
 
-My goal with this blog is to try and make low-level, complex concepts like networking, databases, operating systems, and compilers accessible and fun. While Rust is our main playground 🦀, I'll dive into other languages I enjoy working with like C, Go, and Node.js/Deno, with an emphasis on building ACTUALLY useful tools — not just syntax demos.
-
-If you've ever found yourself wondering:
-"How does this actually work under the hood?"
-"I've learned the Rust syntax, now how do I actually build something?"
-— you're in the right place.
-
-I believe systems programming shouldn’t feel intimidating. Through practical projects, deep dives, and a touch of lightheartedness, I'm here to help you move beyond surface-level knowledge and into the guts of real-world software — one byte-sized lesson at a time. 🧠✨
-
-Welcome aboard!
-
-
+With that out of the way, let's get to the fun stuff.
 
 _Ferris emoji by Dzuk (@Dzuque), licensed under CC BY-NC-SA 4.0_
