@@ -1,23 +1,18 @@
 +++
-date = 2021-05-06T15:00:00Z
-description = "Sample article showcasing a custom Zola shortcode for embedding Streamable Videos into your pages."
+date = 2025-05-16T15:00:00Z
+description = "My dick blah blah blahj article showcasing a custom Zola shortcode for embedding Streamable Videos into your pages."
 draft = false
-title = "Embed My Nuts"
+title = "Embed Streamable"
 
 [extra]
-keywords = "Video, Shortcodes, Embed, Embedded, Streamable"
-series = "Features"
+# keywords = "Video, Shortcodes, Embed, Embedded, Streamable"
+# series = "Features"
 toc = true
 
 [taxonomies]
-tags = [
-    "Features",
-    "Shortcodes",
-    "Video",
-]
+tags = []
 +++
-Zola has many pograms, which is a typo, and new are easily added, this example shows streamable.
-
+This is a test page for the firs post
 <!-- more -->
 
 ## Streamable

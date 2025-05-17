@@ -53,16 +53,15 @@ smart_punctuation = false          # `...` to `…`, `"quote"` to `“curly”` 
 ###############################################################################
 
 menu = [
-#    {url = "blog", name = "Blog", slash = true, blank = false, size="s110"},
-    {url = "archive", name = "Posts", slash = true, blank = false, size="s110"},
-#    {url = "categories", name = "Categories", slash = true, blank = false, size="s110"},
-    {url = "tags", name = "Tags", slash = true, blank = false, size="s110"},
+    # {url = "archive", name = "Blog", slash = true, blank = false, size="s110"},
+    # {url = "categories", name = "Categories", slash = true, blank = false, size="s110"},
+    # {url = "tags", name = "Tags", slash = true, blank = false, size="s110"},
     {url = "about", name = "About", slash = true, blank = false, size="s110"},
 ]
 menu_footer = [
 #    {url = "about", name = "About", slash = true, blank = false, size="s90"},
-    {url = "contact", name = "Contact", slash = true, blank = false, size="s90"},
-    {url = "privacy", name = "Privacy", slash = true, blank = false, size="s90"},
+ #   {url = "contact", name = "Contact", slash = true, blank = false, size="s90"},
+ #   {url = "privacy", name = "Privacy", slash = true, blank = false, size="s90"},
     {url = "sitemap.xml", name = "Sitemap", slash = false, blank = true, size="s90"},
 ]
 
@@ -83,7 +82,7 @@ hide_page_nextprev_titles = false # hides the next/previous titles for pages tha
 title_size_index = "s85"
 footer_size = "s80" # the size of the copyright and powered by text
 footer_credit = true
-#footer_credit_override = '<p class="s90">Powered by <a href="https://www.getzola.org/" target="_blank">Zola</a> &#38; <a href="https://github.com/Jieiku/abridge/" target="_blank">Abridge</a></p>'
+footer_credit_override = '<p></p>'
 #archive_reverse = true # Set to True to sort posts chronologically per year instead of newest first on the archive page: example.com/archive/
 
 ### Uncomment one of the below lines, or neither, depending on which type of logo you want to use:
@@ -126,7 +125,7 @@ seo = true  # enable or disable seo-related meta tags: opengraph, facebook, twit
 ###   https://github.com/Jieiku/abridge/blob/master/templates/macros/social.html
 ###############################################################################
 
-feed = true # this adds the RSS feed icon in the footer.
+feed = false # this adds the RSS feed icon in the footer.
 mail = "name@example.com"
 mastodon = "https://mastodon.example.com/@username"
 element = "matrix.example.com"
@@ -135,7 +134,7 @@ kofi = "your-user-name"
 #discord = "https://discord.com/invite/my-server" # https://discord.com/invite/my-server  *or*  https://discord.com/servers/my-server-id
 #twitter = "your-user-name"
 #facebook = "your-user-name"
-#linkedin = "your-user-name"
+linkedin = "your-user-name"
 #gitlab = "your-user-name"
 github = "your-user-name"
 #codeberg = "your-user-name" # Everything after https://codeberg.org/   eg: username  *or*  username/repository

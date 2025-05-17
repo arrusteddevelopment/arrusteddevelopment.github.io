@@ -5,16 +5,11 @@ draft = false
 title = "Embed Streamable"
 
 [extra]
-keywords = "Video, Shortcodes, Embed, Embedded, Streamable"
-series = "Features"
+# series = "Features"
 toc = true
 
 [taxonomies]
-tags = [
-    "Features",
-    "Shortcodes",
-    "Video",
-]
+tags = []
 +++
 This is a another test post page for the firs post
 <!-- more -->
