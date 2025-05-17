@@ -1,8 +1,8 @@
 +++
 date = 2025-05-16T15:00:00Z
-description = "My dick blah blah blahj article showcasing a custom Zola shortcode for embedding Streamable Videos into your pages."
+description = "Some recommendations on materials for getting a dev up and running with Rust quickly"
 draft = false
-title = "Embed Streamable"
+title = "Recommended Resources for Learning Rust"
 
 [extra]
 # keywords = "Video, Shortcodes, Embed, Embedded, Streamable"
@@ -12,7 +12,7 @@ toc = true
 [taxonomies]
 tags = []
 +++
-This is a test page for the firs post
+
 <!-- more -->
 
 ## Streamable
