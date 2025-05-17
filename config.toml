@@ -56,7 +56,9 @@ menu = [
     # {url = "archive", name = "Blog", slash = true, blank = false, size="s110"},
     # {url = "categories", name = "Categories", slash = true, blank = false, size="s110"},
     # {url = "tags", name = "Tags", slash = true, blank = false, size="s110"},
-    {url = "about", name = "About", slash = true, blank = false, size="s110"},
+    { url = "https://github.com/arrusteddevelopment", name = "github", slash = false, blank = true, size = "s110"},
+    { url = "https://www.linkedin.com/in/tom-shetler/", name = "linkedin", slash = false, blank = true, size = "s110"},
+    {url = "about", name = "about", slash = true, blank = false, size="s110"},
 ]
 menu_footer = [
 #    {url = "about", name = "About", slash = true, blank = false, size="s90"},
